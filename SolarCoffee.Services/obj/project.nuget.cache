@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QRVpbHlEEDDRO8jQ4as5kneZvXJSSmbiWrLWXU7wa6lVucJp0WW73culn73xIXnlOvP4P44PdtG+5PByVxfWBg==",
+  "success": true,
+  "projectFilePath": "/Users/brandymkundenga/Desktop/SolarCoffee/SolarCoffee.Services/SolarCoffee.Services.csproj",
+  "expectedPackageFiles": [
+    "/Users/brandymkundenga/.nuget/packages/microsoft.netcore.app.ref/3.0.0/microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "/Users/brandymkundenga/.nuget/packages/microsoft.aspnetcore.app.ref/3.0.1/microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
