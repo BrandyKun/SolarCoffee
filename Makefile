@@ -1,13 +1,11 @@
 # Project Variables
- PROoject Variables
-ORG_JECT_NAME ?= SolarCoffee
-REPONAME?= SolarCoffee
+PROJECT_NAME ?= SolarCoffe
+ORG_NAME ?= SolarCoffee
 REPO_NAME ?= SolarCoffee
- .PH
- .PHONY: migrations db 
-migr
+
+.PHONY: migrations db
+
 migrations:
-db      cd ./SolarCoffee.Data && dotnet ef --startup-project ../SolarCoffee.Web migraations add $(name) && cd
-..
+     cd ./SolarCoffee.Data && dotnet ef --startup-project ../SolarCoffe.Web/ migrations add $(mname) && cd ..
 db:
-        cd ./SolarCoffee.Data && dotnet ef --startup-project ../SolarCoffee.Web databse update  && cd 
+     cd ./SolarCoffee.Data && dotnet ef --startup-project ../SolarCoffe.Web/ database update && cd ..
