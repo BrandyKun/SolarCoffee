@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffee.Services", "Sol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffee.Test", "SolarCoffee.Test\SolarCoffee.Test.csproj", "{1D489603-4585-48FE-AA4C-8543EFE33AF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffe.web", "SolarCoffe.web\SolarCoffe.web.csproj", "{128C7B3C-844D-4D18-A37A-E0F4337DF949}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolarCoffee.Web", "SolarCoffee.Web\SolarCoffee.Web.csproj", "{128C7B3C-844D-4D18-A37A-E0F4337DF949}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
