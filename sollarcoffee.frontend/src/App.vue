@@ -1,10 +1,24 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
+  <div id="app">
+    <div class="app-menu">
+      <side-menu />
+    </div>
+    <div class="app-content">
+      <router-view />
+    </div>
   </div>
-  <router-view />
 </template>
+
+<script lang="ts">
+
+import SideMenu from "./components/SideMenu.vue";
+
+
+
+export default {
+  
+}
+</script>
 
 <style lang="scss">
 #app {

@@ -5,7 +5,7 @@ namespace SolarCoffee.Web.Serialisation
     public class ProductMapper
     {
         /// <summary>
-        /// Maps a product 
+        /// Maps a Product data model to a ProductModel view model
         /// </summary>
         /// <param name="product"></param>
         /// <returns></returns>
@@ -15,7 +15,7 @@ namespace SolarCoffee.Web.Serialisation
             {
                 Id = product.Id,
                 CreatedOn = product.CreatedOn,
-                UpdatedOn = product.UpdatedOn,
+                UpdatedOn = product.CreatedOn,
                 Price = product.Price,
                 Name = product.Name,
                 Description = product.Description,
@@ -23,8 +23,9 @@ namespace SolarCoffee.Web.Serialisation
                 IsArchived = product.IsArchived
             };
         }
+
         /// <summary>
-        /// Maps a productModel view model to a product data model 
+        /// Maps a ProductModel view model to a Product data model
         /// </summary>
         /// <param name="product"></param>
         /// <returns></returns>
@@ -34,7 +35,7 @@ namespace SolarCoffee.Web.Serialisation
             {
                 Id = product.Id,
                 CreatedOn = product.CreatedOn,
-                UpdatedOn = product.UpdatedOn,
+                UpdatedOn = product.CreatedOn,
                 Price = product.Price,
                 Name = product.Name,
                 Description = product.Description,

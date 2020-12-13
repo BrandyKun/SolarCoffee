@@ -82,7 +82,7 @@ namespace SolarCoffee.Services.Product
                 {
                     Data = product,
                     Time = DateTime.UtcNow,
-                    Message = "New Product not Saved",
+                    Message = e.StackTrace,
                     IsSuccessfull = false
                 };
             }
